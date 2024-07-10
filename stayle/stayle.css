@@ -1,0 +1,95 @@
+
+
+.azeret-normal{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.nav-tittle{
+    font-weight: 80px;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: left;
+}
+.stayle1{
+    font-weight: 600;
+    
+    /* Download Resume */
+position: static;
+width: 180px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 24px 17px 24px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.resume{
+   display:flex;
+   justify-content: space-between;
+}
+.header{
+   background-image: url(../assets/Hero-bg.png);
+   margin: 1440px 660;
+}
+.align{
+    text-align: center;
+}
+.colour{
+    color: rgb(215, 250, 255);
+    background-color: black;
+    font-size: 20px;
+    border-radius: 6px;
+    font-weight: 600;
+   
+}
+.section-tittle{
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.tittle{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    padding: 130px;
+    margin-top: 100px;
+}
+.profile{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#sorce{
+    margin-left: 50px;
+}
+#code{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+#code2{
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+#design{
+  display: flex;
+}
