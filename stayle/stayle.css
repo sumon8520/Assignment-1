@@ -38,7 +38,7 @@ margin: 0px 10px;
 }
 .header{
    background-image: url(../assets/Hero-bg.png);
-   margin: 1440px 660;
+   
 }
 .align{
     text-align: center;
@@ -73,6 +73,10 @@ margin: 0px 10px;
 .profile{
     display: flex;
     justify-content: space-around;
+    border-color: antiquewhite;
+    max-width: 1140px;
+    border-radius: 10px;
+    margin: 0% auto;
     
 }
 #sorce{
@@ -92,4 +96,39 @@ text-align: left;
 }
 #design{
   display: flex;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(252, 252, 252);
+    max-width: 1140px;
+    opacity: 30;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.concept{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 250, 244);
+    opacity: 10;
+    border-radius: 10px;
+    max-width: 1140px;
+    margin: 0% auto;
+}
+.web{
+    text-align: center;
+    padding: 90px;
+    border-radius: 20px;
+}
+.vdo{
+    /* Rectangle 1 */
+position: static;
+width: 1076px;
+height: 550px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 10px 0px;
 }
