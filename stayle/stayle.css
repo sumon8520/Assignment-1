@@ -132,3 +132,18 @@ align-self: stretch;
 flex-grow: 0;
 margin: 10px 0px;
 }
+.section-description{
+    text-align: center;
+}
+.skills-contrainer{
+    display: flex;
+}
+.secondary-bg{
+    background-image: url(../assets/handshake.jpg);
+    text-align: center;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    padding: 30;
+}
