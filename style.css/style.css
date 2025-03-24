@@ -159,3 +159,37 @@ li h2{
     width: 80%;
     margin:100px auto;
 }
+/* support section */
+.bg-3{
+    background-image: url(../assets/handshake.jpg);
+    background-position: cover;
+    width: 80%;
+    margin: auto;
+}
+.suport-container{
+    padding: 200px;
+    text-align: center;
+}
+.suport-btn{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.submit-btn{
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: black;
+    border: none;
+}
+.bg-4{
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.social-containers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+    
