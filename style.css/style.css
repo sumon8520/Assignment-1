@@ -1,0 +1,129 @@
+/* css font link */
+.azeret-mono-fonts {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* shared style */
+  .dark-2{
+    color: rgba(13, 19, 33, 1);
+    font-size: 16px;
+  }
+  .skill-name{
+    font-size: 24px;
+    font-weight: extra-bold;
+  }
+.btn{
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+    list-style-type: none;
+    text-align: center;
+}
+li h2{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.btn-primary{
+    background-color: white;
+    color: rgb(0, 0, 0) ;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* header section */
+.bg{
+    background-image: url(../assets/Hero-bg.png);
+}
+.header{
+    text-align: center;
+    padding: 26px 221px;
+}
+.header-title{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+.btn-primary-2{
+    padding: 20px 24px ;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: semi-bold;
+}
+/* why web section */
+.bg-2{
+    background-color: rgba(13, 19, 33, 0.02);
+    max-width: 1240px;
+    margin: auto;
+    padding: 40px 50px;
+}
+.why-web{
+    text-align: center;
+    margin-top: 50px;
+}
+.coding-containers{
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    justify-content: space-between;
+    margin-top: 100px;
+    max-width: 850px;
+    margin: 50px auto;
+    padding-top: 40px;
+}
+.coding-container{
+    text-align: center;
+    margin-top: 60px;
+}
+.conding-con-2{
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    max-width: 850px;
+    margin: 12px auto;
+}
+/* insparation section */
+.inspa{
+    text-align: center;
+    margin-top: 60px;
+}
+.siklls{
+    text-align: center;
+}
+.inspa-tittle{
+    font: 32px;
+    font-weight: extra-bold;
+}
+/* Skill section */
+.skill-containers{
+    display: flex;
+    margin: 30px 70px;
+    text-align: center;
+    justify-content: space-around;
+
+}
+.skill-1{
+    background-color:rgba(255, 76, 30, 0.05) ;
+    padding: 15px;
+    border-radius: 10px;
+}
+.skill-2{
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 15px;
+    border-radius: 10px
+}
+.skill-3{
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 15px;
+    border-radius: 10px
+}
