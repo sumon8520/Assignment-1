@@ -127,3 +127,35 @@ li h2{
     padding: 15px;
     border-radius: 10px
 }
+/* Backend Tittle */
+.back-tittle{
+    text-align: center;
+    margin-top: 40px;
+}
+.back-1{
+    display: flex;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin:100px auto;
+}
+.back-2{
+    display: flex;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin:100px auto;
+}
+.back-3{
+    display: flex;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin:100px auto;
+}
