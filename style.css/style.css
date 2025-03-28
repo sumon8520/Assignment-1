@@ -162,7 +162,6 @@ li h2{
 /* support section */
 .bg-3{
     background-image: url(../assets/handshake.jpg);
-    background-position: cover;
     width: 80%;
     margin: auto;
 }
@@ -192,4 +191,44 @@ li h2{
     align-items: center;
     margin-top: 50px;
 }
-    
+.hide{
+    display: none;
+}
+/* Media Query Section */
+@media screen and (max-width:576px){
+    nav > ul,
+    .coding-containers,
+    .conding-con-2,
+    .skill-containers,
+    .social-containers {
+        flex-direction: column;
+    }
+    nav > ul {
+        margin: 20px 10px;
+    }
+    .header{
+        padding: 20px;
+    }
+    .inspa-video{
+        width: 500px;
+    }
+    .skill-containers{
+        margin: 20px;
+        gap: 15px;
+    }
+    html > body {
+        margin: 0;
+        padding: 0%;
+        width: 100%;
+    }
+    .inspa-video{
+        width: 90%;
+        height: 60%;
+    }
+    .suport-container{
+        padding: 20px;
+    }
+    .bg-3{
+        width: 100%;
+    }
+}
